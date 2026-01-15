@@ -1,0 +1,38 @@
+{
+  "name": "posts",
+  "columns": [
+    {
+      "name": "id",
+      "col_type": "int",
+      "is_primary_key": true,
+      "is_unique": false,
+      "nullable": true
+    },
+    {
+      "name": "user_id",
+      "col_type": "int",
+      "is_primary_key": false,
+      "is_unique": false,
+      "nullable": true
+    },
+    {
+      "name": "title",
+      "col_type": "str",
+      "is_primary_key": false,
+      "is_unique": false,
+      "nullable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": 101,
+      "user_id": 1,
+      "title": "Alice Post"
+    },
+    {
+      "id": 102,
+      "user_id": 2,
+      "title": "Bob Post"
+    }
+  ]
+}

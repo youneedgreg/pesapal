@@ -1,0 +1,29 @@
+{
+  "name": "tasks",
+  "columns": [
+    {
+      "name": "id",
+      "col_type": "int",
+      "is_primary_key": true,
+      "is_unique": false,
+      "nullable": true
+    },
+    {
+      "name": "content",
+      "col_type": "str",
+      "is_primary_key": false,
+      "is_unique": false,
+      "nullable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "content": "Welcome to SimpleDB Web"
+    },
+    {
+      "id": 100,
+      "content": "task"
+    }
+  ]
+}

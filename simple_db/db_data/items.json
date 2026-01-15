@@ -1,0 +1,25 @@
+{
+  "name": "items",
+  "columns": [
+    {
+      "name": "id",
+      "col_type": "int",
+      "is_primary_key": true,
+      "is_unique": false,
+      "nullable": true
+    },
+    {
+      "name": "name",
+      "col_type": "str",
+      "is_primary_key": false,
+      "is_unique": false,
+      "nullable": true
+    }
+  ],
+  "rows": [
+    {
+      "id": 100,
+      "name": "Widget"
+    }
+  ]
+}
